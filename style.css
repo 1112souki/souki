@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: lightblue;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding-top: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: white;
+  padding-left: 30px;
+}
+
+
+.tetsuya {
+  position: relative;
+  z-index: 1;
+
+}
+
+.tetsuya h3 {
+  z-index: 2;
+  position: absolute;
+  top: 15%;
+  /* left: 31%; */
+  font-size: 26px;
+  background: lightblue;
+  border-radius: 16px;
+  padding: 50px 20px;
+}
+
+.syuto {
+  padding-left: 400px;
+}
+
+
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.mizuki {
+  margin-bottom: 10px;
+}
+
+
+.koko {
+  display: inline-flex;
+  gap: 35px;
+  padding-bottom: 20px;
+}
+
+.toriko {
+  color: white;
+}
+
+.souki {
+  object-fit: cover;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+img {
+  object-fit: cover;
+  
+}
+
+main {
+  margin: 0 55px;
+}
+
+button {
+  background: lightblue;
+  padding: 10px 60px;
+  border: 1px black solid;
+}
+
+.size {
+  font-size: 25px;
+}
+
+button {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+.komatu:hover {
+  transform: scale(1.05);
+}
+
+.GAZOU {
+  overflow: hidden;
+}
+
+
+
+@media (min-width: 600px) {
+
+  main {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .GAZOU {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .tetsuya h3 {
+    z-index: 2;
+    position: absolute;
+    top:20%;
+    
+    font-size: 48px;
+    background: lightblue;
+    border-radius: 24px;
+    padding: 30px 40px;
+    width: 100%;
+  }
+  
+
+
+
+
+  
+}
